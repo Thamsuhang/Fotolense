@@ -1,0 +1,130 @@
+.owl-item.active.img
+{
+    height: 100vh;
+    width: auto;
+}
+.owl-nav {
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
+header.masthead{
+    position: relative;
+}
+button.owl-prev {
+    height: 45px;
+    width: 55px;
+    background: #ffffff !important;
+    margin-right: 10px;
+}
+button.owl-next {
+    height: 45px;
+    width: 55px;
+    background: #ffffff !important;
+}
+button.owl-prev span
+{
+    font-size: 30px;
+
+}
+button.owl-next span
+{
+    font-size: 30px;
+
+}
+.contentinslider {
+    position: absolute;
+    left: 5%;
+    top: 32%;
+    color: white;
+    margin-left: 200px;
+    opacity: 0;
+    transition: all ease 08s;
+}
+.owl-item.active .contentinslider
+{
+    margin-left:0px;
+    opacity:1;
+    transition: all ease 0.8s;
+}
+.contentinslider h4:after {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 3px;
+    background: #ffffff;
+    left: 0px;
+    top: 42px;
+}
+p {
+    font-family: cursive;
+    max-width: 300px;
+    font-size: 14px;
+    color: antiquewhite;
+}
+.contentinslider a {
+    background-color: #d85609;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    letter-spacing: 4px;
+    top: -2px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+p.card-text  {
+    color: black;
+    font-family: unset;
+}
+img.card-img-top.rounded-circle {
+    height: 195px;
+    width: 181px;
+    margin-left: 50px;
+    margin-top:10px;
+}
+footer.page-footer.font-small.mdb-color.lighten-3.pt-4 {
+    background-color: darkslategrey;
+}
+.btn-floating i {
+    display: inline-block;
+    width: 50px;
+    color: #005cbf;
+    text-align: center;
+}
+.footer-copyright.text-center.py-3 {
+    background-color: lightsteelblue;
+}
+.row
+{
+    margin-top: 50px;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: darkslategrey;
+    border-color: darkslategrey;
+}
+
+p.lead {
+    color: black;
+    font-family: monospace;
+}
+p {
+
+    max-width: 675px;
+
+}
+img.wedimg
+{
+    height: 377px; width: 598px; padding: 10px; margin-left: 44px; border-radius: 103px;
+}
+h1.display-4 {
+    margin-top: -43px;
+    margin-left: 67px;
+}
+.contact
+{
+    padding: 50px;
+    background-color: #ecf1ed;
+}
